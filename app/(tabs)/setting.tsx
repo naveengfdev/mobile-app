@@ -1,25 +1,23 @@
+import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-export default function Index() {
+const Setting = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Edit app/index.tsx to edit this screen </Text>
+      <Text style={styles.text}>Settings</Text>
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "red",
     flex: 1,
-    flexDirection: "column",
-
     justifyContent: "center",
     alignItems: "center",
   },
   text: {
     color: "white",
-    fontSize: 20,
-    fontWeight: "bold",
   },
 });
+
+export default Setting;
