@@ -28,7 +28,7 @@ const Header = () => {
           <Ionicons name="flash-outline" color={"#fff"} size={24} />
         </LinearGradient>
         <View style={homeStyles.titleTextContainer}>
-          <Text style={homeStyles.title}>Today&apos;s Tasks</Text>
+          <Text style={homeStyles.title}>Today&apos;s Tasks 👁️</Text>
           <Text style={homeStyles.subtitle}>
             {completedTodos} of {totalTodos} completed
           </Text>
